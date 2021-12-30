@@ -1,38 +1,71 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background:#23252C;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* CSS for Card.js */
+.main-container {
+  position: static;
+  width: 350px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+img {
+  position: static;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.img-class{
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.img-class .face-img{
+  margin: -30px;
+}
+
+
+.info {
+  position: static;
+}
+
+.buttons {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10px;
+  height: 30px;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.email-btn {
+  background: white;
+  display: block;
+  width: 60px;
+  margin: 0 10px 0 0;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedIn {
+  background: blue;
+  border-radius: 3px;
+  width: 100px;
+  padding: 5px 10px 5px 10px;
+  display: block;
+  width: 60px;
+
+
+}
+
+a {
+  vertical-align: middle;
 }
