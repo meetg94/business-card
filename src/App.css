@@ -1,18 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Inter:wght@400;600;700&family=Saira+Condensed:wght@500&display=swap');
+
 .App {
   text-align: center;
-  padding: 30px;
+  padding: 5px;
 }
 
 body {
   background:#23252C;
-
+  font-family: 'Inter', sans-serif;
 }
 
 /* CSS for Card.js */
 .main-container {
   position: static;
   width: 350px;
+  height: 700px;
   margin: 0 auto;
+  background: #1A1B21;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 img {
@@ -37,6 +43,18 @@ img {
 
 .info {
   position: static;
+}
+
+.info h2 {
+  font-size: 25px;
+}
+
+.info p {
+  font-size: 12.8px;
+}
+
+.info small {
+  font-size: 10.24px;
 }
 
 .buttons {
@@ -68,4 +86,18 @@ img {
 
 a {
   vertical-align: middle;
+}
+
+.about {
+  text-align: left;
+}
+
+.interest {
+  text-align: left;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  background: #161619;
 }
