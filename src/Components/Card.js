@@ -77,9 +77,14 @@ function Card() {
             </div>
 
             <div>
-            <button onClick ={() => setStyle("#FFFF00", "#000000")} className="light-theme">
-                Light Theme
-            </button>
+            <div className="theme-buttons">
+                <button onClick ={() => setStyle("#FFFF00", "#000000")} className="light-theme">
+                    Light Theme
+                </button>
+                <button onClick ={() => setStyle("#000000", "#FFFF00")} className="dark-theme">
+                    Dark Theme
+                </button>
+            </div>
 
         </div>
         </div>

@@ -13,7 +13,7 @@ body {
 .biggest-container {
   display: flex;
   justify-content: space-between;
-  
+
 }
 /* CSS for Card.js */
 /*
@@ -142,4 +142,27 @@ a {
   display: flex;
   justify-content: center;
   background: #161619;
+}
+
+/* Theme Buttons */
+.theme-buttons{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.light-theme {
+  margin: 300px 200px 0 0;
+  background: yellow;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.dark-theme {
+  margin: 100px 200px 0 0;
+  background: gray;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
 }
