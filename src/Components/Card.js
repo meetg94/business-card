@@ -12,7 +12,7 @@ function Card() {
 
     const [background, setBackground] = useState('#000000')
 
-    const [fontColor, setFontColor] = useState('#FFFFFF')
+    const [fontColor, setFontColor] = useState('yellow')
 
     const setStyle = (background, fontColor) => {
         setBackground(background)
@@ -21,6 +21,7 @@ function Card() {
 
     const main_container = css`
         position: static;
+        top: 10px;
         width: 317px;
         height: 650px;
         margin: 0 auto;
@@ -79,7 +80,7 @@ function Card() {
             <div>
             <div className="theme-buttons">
                 <button onClick ={() => setStyle("#FFFF00", "#000000")} className="light-theme">
-                    Light Theme
+                    Yellow Theme
                 </button>
                 <button onClick ={() => setStyle("#000000", "#FFFF00")} className="dark-theme">
                     Dark Theme
