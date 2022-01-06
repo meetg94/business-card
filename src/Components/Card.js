@@ -46,7 +46,7 @@ function Card() {
                 <div className="info">
                     <h2>Astro Monkey</h2>
                     <p>Astronaut</p>
-                    <small>meetguleria.vercel.app</small>
+                    <small>planetoftheapes.com</small>
                 </div>
                 <div className="buttons">
                     <a  className="email-btn"><svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
